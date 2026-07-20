@@ -1,0 +1,11 @@
+# Treat binary assets as binary — never apply line-ending conversion
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.pdf   binary
+
+# Normalize line endings for text sources
+*.html  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
